@@ -149,8 +149,8 @@ Rigidbody:
   m_GameObject: {fileID: 35522045}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 5
-  m_AngularDamping: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -268,9 +268,9 @@ ConstantForce:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35522045}
   m_Enabled: 1
-  m_Force: {x: 10, y: 0, z: 0}
+  m_Force: {x: 0, y: 0, z: 0}
   m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 10, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &230126081
 GameObject:
@@ -421,9 +421,9 @@ ConstantForce:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230126081}
   m_Enabled: 1
-  m_Force: {x: 10, y: 0, z: 0}
+  m_Force: {x: 0, y: 0, z: 0}
   m_RelativeForce: {x: 0, y: 0, z: 0}
-  m_Torque: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 10, z: 0}
   m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
